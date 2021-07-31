@@ -1,0 +1,141 @@
+body
+{
+    background-color: rgb(255, 255, 255);
+    background-position: center;
+    background-size: cover;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+header
+{
+    height: auto;
+    text-align: center;
+}
+
+nav
+{
+    position: fixed;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 90%;
+}
+
+main
+{
+    text-align: center;
+    padding-top: 80px;
+    color: black;
+    padding-bottom: 100px;
+}
+
+footer
+{
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+.container
+{
+    margin: auto;
+}
+
+h1
+{
+    font-size: 84px;
+    color: rgb(0, 0, 0);
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: black;
+}
+
+p
+{
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-shadow: black;
+}
+
+a
+{
+    color: rgb(0, 0, 0);
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    text-shadow: rgb(255, 255, 255);
+}
+
+b
+{
+    color: rgb(255, 255, 255);
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    text-shadow: rgb(255, 255, 255);
+}
+
+nav a
+{
+    text-decoration: none;
+    color: rgb(0, 145, 247);
+    font-size: 20px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.footer
+{
+    color: rgb(255, 255, 255);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 8px;
+}
+
+.sidebar
+{
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: lightgrey;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    white-space: nowrap;
+}
+  
+.sidebar a 
+{
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #ffffff;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidebar a:hover 
+{
+    color: #f1f1f1;
+}
+  
+.sidebar .closebtn 
+{
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+.openbtn 
+  {
+    font-size: 20px;
+    background-color: white;
+    cursor: pointer;
+    border: none;
+}
+  
+.openbtn:hover 
+{
+    background-color: lightgrey;
+}
