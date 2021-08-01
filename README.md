@@ -3,7 +3,8 @@ The source code for Algebuckina Design's website.
 
 
 TODO
-Create website layout
+
+implement website layout
 
 redesign logo
 
