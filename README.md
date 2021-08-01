@@ -1,4 +1,4 @@
-# algebuckina-design-website
+# algebuckina design's website
 The source code for Algebuckina Design's website.
 
 
