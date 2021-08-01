@@ -57,7 +57,25 @@ h1
     text-shadow: black;
 }
 
+h2
+{
+    font-family: IBM, Ubuntu, Arial, Helvetica, sans-serif;
+}
+
 .break
+{
+    width: auto;
+    background-color: lightgrey;
+    height: 60px;
+}
+
+.content
+{
+    height: 120px;
+    text-align: left;
+}
+
+.break p
 {
     width: auto;
     background-color: lightgrey;
@@ -69,7 +87,6 @@ p
     font-size: 18px;
     color: rgb(0, 0, 0);
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
-    text-align: center;
     text-shadow: black;
 }
 
