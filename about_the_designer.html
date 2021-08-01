@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algebuckina Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <a href="about_the_designer.html">About the<br>designer</a>
+        <a href="past_projects.html">Past Projects</a>
+        <a href="https://www.youtube.com/channel/UCrn0USAumuXJNT59CHlJnrQ" target="_blank">Youtube Channel</a>
+        <a href="mailto:algebuckina@aol.com?Subject=">Contact Us</a>
+    </div>
+
+    <div class="container">
+        <nav>
+            <button class="openbtn" onclick="openNav()">☰</button>
+        </nav>
+
+        <header>
+            <a href="index.html">
+                <img src="images/logo.png" alt="Algebuckina Design Logo" height="px">
+            </a>
+        </header>
+
+
+        <main>
+            <h1>About the Designer</h1>
+            <p>Placeholder</p>
+            <p>placeholder</p>
+            <a href="https://www.twitch.tv/algebuckina" target="_blank">link</a>
+            <br>
+            <p>placeholder</p>
+            <p>placeholder</p>
+            <p>placeholder</p>
+            <p>placeholder</p>
+            <p>placeholder</p>
+            <p>placeholder</p>
+            <p>placeholder</p>
+            <p>placeholder</p>
+            <p>placeholder</p>
+            <p>placeholder</p>
+            <p>placeholder</p>
+            <p>placeholder</p>
+            <p>placeholder</p>
+        </main>
+
+        <footer>
+            <p class="footer">© 2021 Algebuckina Design | All Rights Reserved</p>
+        </footer>
+    </div>
+    <script>
+        function openNav() {
+          document.getElementById("mySidebar").style.width = "250px";
+          document.getElementById("main").style.marginLeft = "250px";
+        }
+        
+        function closeNav() {
+          document.getElementById("mySidebar").style.width = "0";
+          document.getElementById("main").style.marginLeft= "0";
+        }
+    </script>
+    
+</body>
+
+</html>
