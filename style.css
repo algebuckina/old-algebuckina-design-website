@@ -1,3 +1,13 @@
+@font-face {
+    font-family: Ubuntu;
+    src: url(fonts/Ubuntu-M.ttf);
+}
+
+@font-face {
+    font-family: IBM;
+    src: url(fonts/IBM-Logo.ttf);
+}
+
 body
 {
     background-color: rgb(255, 255, 255);
@@ -31,7 +41,9 @@ main
 
 footer
 {
+    padding-top: 40px;
     background-color: rgba(0, 0, 0, 0.30);
+    text-align: center;
 }
 
 .container
@@ -83,7 +95,6 @@ nav a
 .footer
 {
     color: rgb(255, 255, 255);
-    padding-top: 8px;
     padding-bottom: 8px;
     font-size: 8px;
 }
