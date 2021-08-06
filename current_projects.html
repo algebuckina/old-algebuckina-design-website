@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Algebuckina Design</title>
-    <meta name="description" content="Algebuckina Design is an Australian design company based in Western Sydney that designs and produces technology peripherals out of locally sourced materials.">
-    <meta name="keywords" content="ALGEBUCKINA, DESIGN, DESIGNER, ALGBUCKINA DESIGN">
+    <title>Algebuckina Design | Current Projects</title>
+    <meta name="description" content="Algebuckina design has many projects in progress. With the main ones being their first product, a wood computer keyboard.">
+    <meta name="keywords" content="ALGEBUCKINA, DESIGN, DESIGNER, ALGBUCKINA DESIGN, PROJECTS, CURRENT, CURRENT PROJECTS, VR, VIRTUAL REALITY, VIRTUAL, REALITY, WEBSITE, KEYBOARD, WOOD, WOOD KEYBOARD">
     <meta name="author" content="algebuckina">
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" type="image/ico" href="./favicon.ico">
@@ -28,7 +28,7 @@
 
     <div class="container">
         <header>
-            <a href="./index.html"><img src="images/logo.png" alt="Algebuckina Design Logo" width="60%" height="auto"></a>
+            <a href="./index.html" title="home"><img src="images/logo.png" alt="Algebuckina Design Logo" width="60%" height="auto"></a>
         </header>
 
         <nav>
@@ -36,53 +36,59 @@
         </nav>
 
         <main>
-            <img src="images/lap_bench.png" alt="laptop solidworks render" width="100%" height="auto">
-            
-            <div class="content">
-                <div class="lefttitle">
-                    <h2>About</h2>
-                </div>
-
-                <div class="righttitle">
-                    <p>Algebuckina Design is a soul trader design firm founded and run by - -. A Western Sydney University Honors graduate in Industrial Design, who wanted to design, build and market his own creations. This website serves as an outlet for his company, and a portfolio of his past, current and future works.</p>
-                </div>
-            </div>
+            <img src="images/current_projects_title.png" alt="laptop solidworks render" width="100%" height="auto">
+            <!--photo of my desk, when it's clean, with solidworks on 1 screen, and VSCode on the other at 3000 x 1080 or eq-->
+            <h1>Current Projects</h1>
 
             <div class="break"></div>
 
-            <div class="content"><!--I need a constant heigh for my content boxes but I can't for the life of me figure out how big is too big-->
-                <div class="lefttitle">
-                    <h2>Software and Firmware</h2>
-                </div>
+            <div class="content1">
+                <a id="link1" href="./widevision_vr.html" title="Read more on Widevision VR 2021">
+                    <div class="left">
+                        <h2>Widevision VR</h2>
 
-                <div class="righttitle">
-                    <p>something something twitch bot, something something arduino, something something VR, something something Mod The Galaxy.</p>
-                </div>
+                        <p>Widevision VR is a project to bring Western Sydney University's Widevision 2021 to the greater community during the pandemic and lockdowns. The project was proposed to the 2021 Honors group, and - - chose to take it on.</p>
+
+                    </div>
+                    <div class="right">
+                        <img src="images/vr_title.png" alt="SteamVR Hammer Screenshot" height="200px">
+                    </div>
+                </a>
                 
             </div>
 
             <div class="break"></div>
 
-            <div class="content">
-
-                <div class="lefttitle">
-                    <h2>Partners</h2>
-                </div>
-
-                <div class="righttitle">
-                    <p>Hang on I do have a partner and it's <a id="link1" href="https://modthegalaxy.com/" target="_blank">Mod the Galaxy</a>, who knew. I sure didn't</p>
-                </div>
-
+            <div class="content1">
+                <a id="link2" href="#" title="Read more on the Wood Keyboard">
+                    <div class="left">
+                        <h2>Wood Keyboard</h2>
+                        <p>The wood based mechanical keyboard has been an ongoing project since 2020 when lockdown first hit the Sydney area. The idea has been worked on along side - -'s university work, and is looking to be the 1st product launched under the "Algebuckina Design" name. The plan is to follow the keyboard with a full suite of computer and technological peripherals all with the same design language.</p>
+                    </div>
+                    <div class="right">
+                        <img src="images/keyboard_title.png" alt="Keyboard Solidworks Render" height="200px">
+                    </div>
+                </a>
+                
             </div>
 
             <div class="break"></div>
 
-            
-            <div class="lefttitle">
-                <h2>Community Outreach</h2>
+            <div class="content1">
+                <a id="link3" href="https://github.com/algebuckina/algebuckina-design-website" title="View the website source code on Github" target="_blank">
+                    <div class="left">
+                        <h2>This Website</h2>
+
+                        <p>I've always loved developing my skills in other areas, and I thought I'd tackle web design as I needed a website for my company and portfolio. So I booted up a 5 hour YouTube video and proceeded to learn the basics of HTML5. And if you look around the website, you'll be able to see what I've been able to do with it.</p>
+
+                    </div>
+                    <div class="right">
+                        <img src="images/webpage_title.png" alt="Code snipit screenshot" height="200px">
+                    </div>
+                </a>
+                
             </div>
-            
-            <iframe src="https://player.twitch.tv/?channel=algebuckina&parent=algebuckina.xyz" frameborder="0" allowfullscreen="true" scrolling="no" height="720" width="100%"></iframe>  
+
         </main>
 
         <footer>
@@ -104,7 +110,8 @@
                var element = document.body;
                element.classList.toggle("dark-mode");
                document.getElementById("link1").classList.toggle("a-dark");
-               //I need to add links for EVERY link or it breaks. I'm sure there is a better way to do this, but I'm not fkn doing it.
+               document.getElementById("link2").classList.toggle("a-dark");
+               document.getElementById("link3").classList.toggle("a-dark");
             }
             </script>
 

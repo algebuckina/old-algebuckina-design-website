@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Algebuckina Design's past projects</title>
-    <meta name="description" content="Algebuckina Design is an Australian design company based in Western Sydney that designs and produces technology peripherals out of locally sourced materials">
+    <title>Algebuckina Design | Past Projects</title>
+    <meta name="description" content="Our designer, - -, has a long portfolio of work, spanning multiple diciplins and years. These are only some of the projects he has worked on during his education and free time.">
     <meta name="keywords" content="ALGEBUCKINA, DESIGN, DESIGNER, ALGBUCKINA DESIGN">
     <meta name="author" content="algebuckina">
     <link rel="stylesheet" href="style.css">
@@ -19,7 +19,7 @@
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
         <a href="index.html">Home</a>
         <a href="about_the_designer.html">About the<br>designer</a>
-        <a href="./current_products.html">Current Projects</a>
+        <a href="./current_projects.html">Current Projects</a>
         <a href="past_projects.html">Past Projects</a>
         <a href="https://www.youtube.com/channel/UCrn0USAumuXJNT59CHlJnrQ" target="_blank">Youtube Channel</a>
         <a href="mailto:algebuckina@aol.com?Subject=">Contact Us</a>
@@ -28,7 +28,7 @@
 
     <div class="container">
         <header>
-            <a href="./index.html"><img src="images/logo.png" alt="Algebuckina Design Logo" width="60%" height="auto"></a>
+            <a href="./index.html"><img src="images/logo_alpha.png" alt="Algebuckina Design Logo" width="60%" height="auto"></a>
         </header>
 
         <nav>
@@ -43,7 +43,23 @@
             <div class="break"></div>
 
             <div class="content1">
-                <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"target="_blank">
+                <a id="link1" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"target="_blank">
+                    <div class="left">
+                        <h2>Project title</h2>
+
+                        <p>slight project description</p>
+                    </div>
+                    <div class="right">
+                        <p>image</p>
+                    </div>
+                </a>
+                
+            </div>
+
+            <div class="break"></div>
+
+            <div class="content1">
+                <a id="link2" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"target="_blank">
                     <div class="left">
                         <h2>Project title</h2>
 
@@ -59,20 +75,10 @@
             <div class="break"></div>
 
             <div class="content">
-                <h2>Social Media</h2>
-                <a href="https://www.twitch.tv/algebuckina" target="_blank"><p>Project Development Showcase</p></a>
-                <a href="https://twitter.com/algebuckina" target="_blank"><p>Company Community Outreach</p></a>
-            </div>
-
-            <div class="break"></div>
-
-            <div class="content">
                 <h2>Partners</h2>
                 <p>fkn noone lol</p>
             </div>
-            <div class="break"></div>
-            <br>
-            <iframe src="https://player.twitch.tv/?channel=algebuckina&parent=algebuckina.xyz" frameborder="0" allowfullscreen="true" scrolling="no" height="720" width="100%"></iframe>
+
         </main>
 
         <footer>
@@ -86,6 +92,17 @@
             <p>© Algebuckina Design 2021 | All Rights Reserved</p>
             <p>ABN:____________</p>
             <p class="footer">Social media icons made by Pixel perfect from www.flaticon.com</p>
+
+            <button onclick="myFunction()">Toggle dark mode</button>
+
+            <script>
+            function myFunction() {
+               var element = document.body;
+               element.classList.toggle("dark-mode");
+               document.getElementById("link1").classList.toggle("a-dark");
+               document.getElementById("link2").classList.toggle("a-dark");
+            }
+            </script>
         </footer>
     </div>
     <script>
