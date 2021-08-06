@@ -11,8 +11,15 @@
 body
 {
     background-color: rgb(255, 255, 255);
+    color: black;
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.dark-mode
+{
+    background-color: rgb(13, 17, 23);
+    color: white;
 }
 
 header
@@ -34,23 +41,17 @@ nav
     padding-top: 10px;
 }
 
-main
-{
-    color: black;
-    padding-bottom: 100px;
-}
-
 footer
 {
     padding-top: 40px;
     background-color: rgba(0, 0, 0, 0.30);
     text-align: center;
+    padding-bottom: 10px;
 }
 
 h1
 {
     font-size: 84px;
-    color: rgb(0, 0, 0);
     font-family: IBM, Arial, Helvetica, sans-serif;
     text-align: center;
     text-shadow: black;
@@ -65,7 +66,7 @@ h2
 .break
 {
     width: auto;
-    background-color: lightgrey;
+    background-color: rgba(0, 0, 0, 0.1);
     height: 60px;
 }
 
@@ -80,8 +81,7 @@ h2
 
 .content1
 {
-    min-height: 160px;
-    height: auto;
+    height: 250px;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 20px;
@@ -91,13 +91,14 @@ h2
 .right
 {
     float: right;
-    width: 50%;
+    width: 48%;
+    text-align: center;
 }
 
 .left
 {
     float: left;
-    width: 50%;
+    width: 48%;
 }
 
 .lefttitle
@@ -136,15 +137,19 @@ h2
 p
 {
     font-size: 18px;
-    color: rgb(0, 0, 0);
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
     text-shadow: black;
 }
 
 a
 {
-    color: rgb(0, 0, 0);
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+.a-dark
+{
+    color: white;
 }
 
 b
@@ -152,6 +157,17 @@ b
     color: rgb(255, 255, 255);
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
     text-shadow: rgb(255, 255, 255);
+}
+
+button
+{
+    font-family: Ubuntu, Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-top: 2px;
+    padding-bottom: 2px;
 }
 
 .footer
@@ -206,6 +222,7 @@ b
     background-color: white;
     cursor: pointer;
     border: none;
+    color: black;
 }
   
 .openbtn:hover 
