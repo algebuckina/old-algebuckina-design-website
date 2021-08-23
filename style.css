@@ -59,8 +59,9 @@ h1
 
 h2
 {
+    padding-top: 40px;
     font-family: IBM, Ubuntu, Arial, Helvetica, sans-serif;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
 }
 
 .break
@@ -112,6 +113,18 @@ h2
     padding: 10px;
 }
 
+.lefttitle2
+{
+    text-align: center;
+    padding-right: 5%;
+    padding: 10px;
+}
+
+.righttitle2
+{
+    padding: 10px;
+}
+
 @media only screen and (min-width: 1200px)
 {
     .right
@@ -153,6 +166,24 @@ h2
         float: left;
         transition: 0.5s;
     }
+
+    .righttitle2
+    {
+        width: 70%;
+        float: right;
+        transition: 0.5s;
+        height: 500px;
+    }
+
+    .lefttitle2
+    {
+        text-align: right;
+        width: 25%;
+        float: left;
+        transition: 0.5s;
+        height: 500px;
+    }
+
 
 
 }
