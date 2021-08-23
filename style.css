@@ -118,12 +118,14 @@ h2
     {
         width: 48%;
         float: right;
+        transition: 0.5s;
     }
 
     .left
     {
         width: 48%;
         float: left;
+        transition: 0.5s;
     }
 
     .content1
@@ -141,6 +143,7 @@ h2
     {
         width: 70%;
         float: right;
+        transition: 0.5s;
     }
 
     .lefttitle
@@ -148,6 +151,7 @@ h2
         text-align: right;
         width: 25%;
         float: left;
+        transition: 0.5s;
     }
 
 
@@ -175,6 +179,12 @@ p
     font-size: 18px;
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
     text-shadow: black;
+}
+
+.descriptions
+{
+    padding-left: 2.5%;
+    padding-right: 2.5%;
 }
 
 a
