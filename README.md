@@ -4,12 +4,14 @@ The source code for Algebuckina Design's website.
 
 TODO
 
-implement website layout
+implement website layout (done)
 
-redesign logo
+redesign logo (done)
 
-clean up the spagetti code
+clean up the spagetti code (probably will never do)
 
-add comments so I know what I'm doing
+add comments so I know what I'm doing (no :))
 
-Add in all noteworthy projects
+Do writeups on all my projects (in progress)
+
+Find assets for my projects
