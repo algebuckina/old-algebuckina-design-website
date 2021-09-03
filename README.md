@@ -4,14 +4,6 @@ The source code for Algebuckina Design's website. https://algebuckina.xyz/index.
 
 TODO
 
-implement website layout (done)
+add comments so I know what I'm doing later on (I don't think I need to do this, but I will eventually)
 
-redesign logo (done)
-
-clean up the spagetti code (probably will never do)
-
-add comments so I know what I'm doing (no :))
-
-Do writeups on all my projects (in progress)
-
-Find assets for my projects
+Do writeups on all my projects (Need to be more indepth and better highlight skills used. And I need to find my old technical drawings)
