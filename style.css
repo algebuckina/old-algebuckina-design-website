@@ -8,22 +8,19 @@
     src: url(fonts/IBM-Logo.ttf);
 }
 
-body
-{
+body {
     background-color: rgb(255, 255, 255);
     color: black;
     padding-left: 5%;
     padding-right: 5%;
 }
 
-.dark-mode
-{
+.dark-mode {
     background-color: rgb(13, 17, 23);
     color: white;
 }
 
-header
-{
+header {
     padding-top: 10px;
     background-color: white;
     text-align: center;
@@ -33,46 +30,40 @@ header
     padding-bottom: 5px;
 }
 
-nav
-{
+nav {
     position: fixed;
     top: 4px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
 
-footer
-{
+footer {
     padding-top: 40px;
     background-color: rgba(0, 0, 0, 0.30);
     text-align: center;
     padding-bottom: 10px;
 }
 
-h1
-{
+h1 {
     font-size: 40px;
     font-family: IBM, Arial, Helvetica, sans-serif;
     text-align: center;
     text-shadow: black;
 }
 
-h2
-{
+h2 {
     padding-top: 5px;
     font-family: IBM, Ubuntu, Arial, Helvetica, sans-serif;
     padding-bottom: 5px;
 }
 
-.break
-{
+.break {
     width: auto;
     background-color: rgba(0, 0, 0, 0.1);
     height: 60px;
 }
 
-.content
-{
+.content {
     min-height: 120px;
     height: auto;
     text-align: left;
@@ -80,165 +71,129 @@ h2
     padding-right: 10px;
 }
 
-.content1
-{
+.content1 {
     height: auto;
     padding-left: 10%;
     padding-right: 10%;
     padding-top: 20px;
-    padding-bottom: 20px; 
+    padding-bottom: 20px;
 }
 
-
-.right
-{
+.right {
     text-align: center;
     height: auto;
 }
 
-.left
-{
+.left {
     height: auto;
 }
 
-.lefttitle
-{
+.lefttitle {
     text-align: center;
     padding-right: 5%;
     padding: 10px;
 }
 
-.righttitle
-{
+.righttitle {
     padding: 10px;
 }
 
-.lefttitle2
-{
+.lefttitle2 {
     text-align: center;
     padding-right: 5%;
     padding: 10px;
 }
 
-.righttitle2
-{
+.righttitle2 {
     padding: 10px;
 }
 
-@media only screen and (min-width: 1200px)
-{
-    .right
-    {
+@media only screen and (min-width: 1200px) {
+    .right {
         width: 48%;
         float: right;
         transition: 0.5s;
     }
-
-    .left
-    {
+    .left {
         width: 48%;
         float: left;
         transition: 0.5s;
     }
-
-    .content1
-    {
+    .content1 {
         height: 300px;
         text-decoration: none;
     }
-
-    h1
-    {
+    h1 {
         font-size: 84px;
     }
-
-    .righttitle
-    {
+    .righttitle {
         width: 70%;
         float: right;
         transition: 0.5s;
     }
-
-    .lefttitle
-    {
+    .lefttitle {
         text-align: right;
         width: 25%;
         float: left;
         transition: 0.5s;
     }
-
-    .righttitle2
-    {
+    .righttitle2 {
         width: 70%;
         float: right;
         transition: 0.5s;
         height: 500px;
     }
-
-    .lefttitle2
-    {
+    .lefttitle2 {
         text-align: right;
         width: 25%;
         float: left;
         transition: 0.5s;
         height: 500px;
     }
-
-
-
 }
 
-.right:hover
-{
+.right:hover {
     background-color: rgba(238, 238, 238, 0.323);
 }
 
-.left:hover
-{
+.left:hover {
     background-color: rgba(238, 238, 238, 0.323);
 }
 
-.break p
-{
+.break p {
     width: auto;
     background-color: lightgrey;
     height: 60px;
 }
 
-p
-{
+p {
     font-size: 20px;
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
     text-shadow: black;
 }
 
-.descriptions
-{
+.descriptions {
     padding-left: 2.5%;
     padding-right: 2.5%;
 }
 
-a
-{
+a {
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
     color: black;
     text-decoration: none;
 }
 
-.a-dark
-{
+.a-dark {
     color: white;
 }
 
-b
-{
+b {
     color: rgb(255, 255, 255);
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
     text-shadow: rgb(255, 255, 255);
 }
 
-button
-{
+button {
     font-family: Ubuntu, Arial, Helvetica, sans-serif;
     color: white;
     background-color: black;
@@ -248,15 +203,13 @@ button
     padding-bottom: 2px;
 }
 
-.footer
-{
+.footer {
     color: rgb(255, 255, 255);
     padding-bottom: 8px;
     font-size: 8px;
 }
 
-.sidebar
-{
+.sidebar {
     height: 100%;
     width: 0;
     position: fixed;
@@ -269,9 +222,8 @@ button
     padding-top: 60px;
     white-space: nowrap;
 }
-  
-.sidebar a 
-{
+
+.sidebar a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
     font-size: 25px;
@@ -279,31 +231,27 @@ button
     display: block;
     transition: 0.3s;
 }
-  
-.sidebar a:hover 
-{
+
+.sidebar a:hover {
     color: #f1f1f1;
 }
-  
-.sidebar .closebtn 
-{
+
+.sidebar .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
     font-size: 36px;
     margin-left: 50px;
 }
-  
-.openbtn 
-  {
+
+.openbtn {
     font-size: 20px;
     background-color: white;
     cursor: pointer;
     border: none;
     color: black;
 }
-  
-.openbtn:hover 
-{
+
+.openbtn:hover {
     background-color: lightgrey;
 }
